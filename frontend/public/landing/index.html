@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <meta name="title" content="Enter the PLVRS" />
+        <meta name="description" content="Season 1: The Hodly Heroes of Yestermorrow" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://plvrs.online" />
+        <meta property="og:title" content="Enter the PLVRS" />
+        <meta property="og:description" content="Season 1: The Hodly Heroes of Yestermorrow" />
+        <meta property="og:image" content="https://plvrs.online" />
+
+        <meta name="twitter:title" content="Enter the PLVRS" />
+        <meta name="twitter:description" content="Season 1: The Hodly Heroes of Yestermorrow" />
+        <meta name="twitter:url" content="https://plvrs.online" />
+        <meta name="twitter:site" content="@PLVRS" />
+        <meta name="twitter:image" content="https://plvrs.online" />
+        <meta name="twitter:card" content="summary_large_image" />
+    <title>Hodly Heroes of Yestermorrow - Enter the PLVRS</title>
+
+    <!-- LOAD JQUERY LIBRARY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+
+    <!-- LOADING FONTS AND ICONS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400%7CManrope:800%2C700%2C400%2C600%7CEB+Garamond:500%2C600%7CHeebo:400&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+
+
+    <link rel="stylesheet" type="text/css" href="landing/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" type="text/css" href="landing/fonts/font-awesome/css/font-awesome.css">
+
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="landing/css/rs6.css">
+    <link rel="stylesheet" type="text/css" href="landing/css/revolution.addon.particlewave.css">
+    <!-- REVOLUTION LAYERS STYLES -->
+    <!-- REVOLUTION JS FILES -->
+
+    <script>
+      window.RS_MODULES = window.RS_MODULES || {};
+      window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+      window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+      window.RS_MODULES.defered = true;
+
+      window.RS_MODULES.waiting = window.RS_MODULES.waiting.concat([ "particlewave","threejs"]);
+      window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+      window.RS_MODULES.type = 'compiled';
+    </script>
+
+    <script>function setREVStartSize(e){
+      //window.requestAnimationFrame(function() {
+      window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+      window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+      try {
+        var pw = document.getElementById(e.c).parentNode.offsetWidth,
+          newh;
+        pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+        e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+        e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+        e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+        e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+        e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+        e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+        e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+        if(e.layout==="fullscreen" || e.l==="fullscreen")
+          newh = Math.max(e.mh,window.RSIH);
+        else{
+          e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+          for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+          e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+          e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+          for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+
+          var nl = new Array(e.rl.length),
+            ix = 0,
+            sl;
+          e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+          e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+          e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+          e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+          for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+          sl = nl[0];
+          for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+          var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+          newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+        }
+        var el = document.getElementById(e.c);
+        if (el!==null && el) el.style.height = newh+"px";
+        el = document.getElementById(e.c+"_wrapper");
+        if (el!==null && el) {
+          el.style.height = newh+"px";
+          el.style.display = "block";
+        }
+      } catch(e){
+        console.log("Failure at Presize of Slider:" + e)
+      }
+      //});
+    };</script>
+
+</head>
+
+<body class="home page-template page-template--- page-template-public page-template-views page-template-revslider-page-template page-template---publicviewsrevslider-page-template-php page page-id-14 x-ethos x-child-theme-active x-full-width-layout-active x-full-width-active x-post-meta-disabled x-navbar-static-active pro-v5_1_5">
+
+<div>
+    <div id="cs-content" class="cs-content">
+        <div class="row">
+            <!-- START Particle Wave Showcase1 REVOLUTION SLIDER 6.5.31 -->
+            <rs-module-wrap id="rev_slider_2_1_wrapper" data-alias="particle-wave-showcase1" data-source="gallery" style="visibility:hidden;background:#000000;padding:0;">
+                <rs-module id="rev_slider_2_1" class="rs-respect-topbar" style="" data-version="6.5.31">
+                    <rs-slides>
+                        <rs-slide style="position: absolute;" data-key="rs-6" data-title="main" data-in="o:1;y:-100%;">
+                            <img src="landing/assets/mainbg-1-2048x1365.jpg" alt="" title="mainbg" width="2048" height="1365" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="landing/assets/mainbg-1-2048x1365.jpg" data-parallax="off" data-no-retina>
+                            <rs-zone id="rrzt_6" class="rev_row_zone_top" style="z-index: 18;">
+                                <rs-row
+                                    id="slider-2-slide-6-layer-2"
+                                    data-type="row"
+                                    data-xy="xo:50px;yo:50px;"
+                                    data-cbreak="3"
+                                    data-rsp_bd="off"
+                                    data-margin="t:30,30,30,20;r:50,80,80,40;l:50,80,80,40;"
+                                    data-frame_0="y:top;"
+                                    data-frame_1="e:power2.inOut;sp:1000;"
+                                    data-frame_999="o:0;st:w;sR:8000;sA:9000;"
+                                    style="z-index:1;"
+                                >
+                                    <rs-column
+                                        id="slider-2-slide-6-layer-13"
+                                        data-type="column"
+                                        data-xy="xo:50px;yo:50px;"
+                                        data-rsp_bd="off"
+                                        data-column="w:50%;"
+                                        data-frame_0="o:1;"
+                                        data-frame_999="o:0;st:w;sR:8700;sA:9000;"
+                                        style="z-index:2;width:100%;"
+                                    >
+                                        <rs-layer
+                                            id="slider-2-slide-6-layer-16"
+                                            data-type="image"
+                                            data-rsp_ch="on"
+                                            data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                            data-dim="w:300px,247px,187px,115px;h:70px,57px,43px,26px;"
+                                            data-frame_999="o:0;st:w;sR:8700;"
+                                            style="z-index:3;"
+                                        ><img src="landing/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="300" height="70" data-lazyload="landing/assets/1-PLVRS-horizontal-small.png" data-no-retina>
+                                        </rs-layer>
+                                    </rs-column>
+                                    <rs-column
+                                        id="slider-2-slide-6-layer-17"
+                                        data-type="column"
+                                        data-xy="xo:50px;yo:50px;"
+                                        data-text="a:right;"
+                                        data-rsp_bd="off"
+                                        data-column="w:50%;"
+                                        data-frame_0="o:1;"
+                                        data-frame_999="o:0;st:w;sR:8700;sA:9000;"
+                                        style="z-index:4;width:100%;"
+                                    >
+                                        <rs-layer
+                                            id="slider-2-slide-6-layer-18"
+                                            data-type="text"
+                                            data-color="#b2d6ff"
+                                            data-rsp_ch="on"
+                                            data-text="w:normal;s:18,16,16,16;l:50,50,50,40;ls:2px,1px,0px,0px;fw:800;"
+                                            data-actions='o:click;a:jumptoslide;slide:rs-90;'
+                                            data-disp="inline-block"
+                                            data-margin="t:0,0,0,-40;r:0,0,0,12;"
+                                            data-border="bos:solid;bow:0,0,2px,0;"
+                                            data-frame_999="o:0;st:w;sR:8700;"
+                                            data-frame_hover="c:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:0,0,2px,0;bri:120%;"
+                                            style="z-index:5;font-family:'Manrope';text-transform:uppercase;cursor:pointer;display:inline-block;"
+                                        >About
+                                        </rs-layer>
+                                        <a
+                                            id="slider-2-slide-6-layer-20"
+                                            class="rs-layer"
+                                            href="/HHoYM" rel="noopener"
+                                            data-type="text"
+                                            data-color="rgba(178, 214, 255, 0.8)"
+                                            data-rsp_ch="on"
+                                            data-text="w:normal;s:18,16,16,16;l:50,50,50,40;ls:2px,1px,0px,0px;fw:700;"
+                                            data-vbility="t,t,t,f"
+                                            data-disp="inline-block"
+                                            data-margin="t:0,0,0,-40;r:50,41,31,30;l:50,41,31,30;"
+                                            data-border="bos:solid;bow:0,0,2px,0;"
+                                            data-frame_999="o:0;st:w;sR:8700;"
+                                            data-frame_hover="c:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:0,0,2px,0;bri:120%;"
+                                            style="z-index:6;font-family:'Manrope';text-transform:uppercase;cursor:pointer;display:inline-block;"
+                                        >NFTs
+                                        </a>
+                                        <a
+                                            id="slider-2-slide-6-layer-21"
+                                            class="rs-layer"
+                                            href="/main" rel="noopener"
+                                            data-type="text"
+                                            data-color="rgba(178, 214, 255, 0.8)"
+                                            data-rsp_ch="on"
+                                            data-text="w:normal;s:18,16,16,16;l:50,50,50,40;ls:2px,1px,0px,0px;fw:700;"
+                                            data-disp="inline-block"
+                                            data-margin="t:0,0,0,-40;"
+                                            data-border="bos:solid;bow:0,0,2px,0;"
+                                            data-frame_999="o:0;st:w;sR:8700;"
+                                            data-frame_hover="c:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:0,0,2px,0;bri:120%;"
+                                            style="z-index:7;font-family:'Manrope';text-transform:uppercase;cursor:pointer;display:inline-block;"
+                                        >Connect Wallet
+                                        </a>
+                                    </rs-column>
+                                </rs-row>
+                            </rs-zone>
+                            <rs-group
+                                id="slider-2-slide-6-layer-19"
+                                data-type="group"
+                                data-rsp_ch="on"
+                                data-xy="x:c;y:b;yo:60px,60px,200px,140px;"
+                                data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:249px,240px,192.984px,188.98399999999998px;h:88px,72px,60px,60px;"
+                                data-actions='o:click;a:simplelink;target:_self;url:#MINT-NFT;'
+                                data-frame_0="o:1;"
+                                data-frame_999="o:0;st:w;sR:8700;sA:9000;"
+                                style="z-index:22;"
+                            >
+                                <a
+                                    id="slider-2-slide-6-layer-6"
+                                    class="rs-layer"
+                                    href="/mint" target="_self"
+                                    data-type="text"
+                                    data-color="#167bff"
+                                    data-rsp_ch="on"
+                                    data-xy="x:c;y:b,m,m,m;"
+                                    data-text="w:normal;s:15;l:20,15,15,15;ls:5px,4px,3px,1px;fw:800;a:center;"
+                                    data-dim="w:auto,240px,192.984px,188.98399999999998px;h:88px,72px,60px,60px;"
+                                    data-fsom="true"
+                                    data-padding="t:30,25,20,20;r:60,50,40,40;b:30,25,20,20;l:65,54,43,41;"
+                                    data-border="bos:solid;boc:#167bff;bow:2px,2px,2px,2px;"
+                                    data-frame_0="y:50px,41px,31px,19px;bR:100%;bB:10px;"
+                                    data-frame_1="e:power4.inOut;st:500;sp:1500;sR:500;bG:0%;bB:10px;bI:0%;bS:0%;"
+                                    data-frame_999="o:0;st:w;sR:7000;"
+                                    data-frame_hover="c:#07eef6;bgc:rgba(7,238,246,0.1);boc:#07eef6;bor:0px,0px,0px,0px;bos:solid;bow:2px,2px,2px,2px;bri:100%;"
+                                    style="z-index:21;font-family:'Manrope';text-transform:uppercase;cursor:pointer;"
+                                >MINT NOW
+                                </a>
+                            </rs-group>
+                            <rs-group
+                                id="slider-2-slide-6-layer-22"
+                                data-type="group"
+                                data-rsp_ch="on"
+                                data-xy="x:c;y:m,m,m,t;yo:0,40px,0,145px;"
+                                data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:100%;h:273px,225px,170px,104px;"
+                                data-frame_0="o:1;"
+                                data-frame_999="o:0;st:w;sR:8700;sA:9000;"
+                                style="z-index:27;"
+                            >
+                                <rs-layer
+                                    id="slider-2-slide-6-layer-29"
+                                    class="rs-noevents rs-pxl-2"
+                                    data-type="image"
+                                    data-rsp_ch="on"
+                                    data-xy="x:c;"
+                                    data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                    data-dim="w:800px,660px,501px,309px;h:131px,108px,82px,50px;"
+                                    data-frame_1="e:power2.in;st:500;sp:1000;sR:500;"
+                                    data-frame_999="o:0;st:w;sR:7500;"
+                                    style="z-index:24;"
+                                ><img src="landing/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="1200" height="197" data-lazyload="landing/assets/layer10-1200x197.png" data-no-retina>
+                                </rs-layer>
+                                <rs-layer
+                                    id="slider-2-slide-6-layer-32"
+                                    class="rs-pxl-3"
+                                    data-type="image"
+                                    data-rsp_ch="on"
+                                    data-xy="x:c;y:b;"
+                                    data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                    data-dim="w:1188px,981px,745px,459px;h:240px,198px,150px,92px;"
+                                    data-frame_1="e:power2.inOut;st:500;sp:1000;sR:500;"
+                                    data-frame_999="o:0;st:w;sR:7500;"
+                                    style="z-index:26;"
+                                ><img src="landing/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="2048" height="414" data-lazyload="landing/assets/layer12-2048x414.png" data-no-retina>
+                                </rs-layer>
+                                <rs-layer
+                                    id="slider-2-slide-6-layer-33"
+                                    data-type="image"
+                                    data-rsp_ch="on"
+                                    data-xy="x:c;xo:1px,0,0,0;y:m;yo:-15px,-12px,-9px,-5px;"
+                                    data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                    data-dim="w:87px,71px,53px,32px;h:48px,39px,29px,17px;"
+                                    data-frame_1="e:power2.inOut;st:600;sp:1000;sR:600;"
+                                    data-frame_999="o:0;st:w;sR:7400;"
+                                    style="z-index:25;"
+                                ><img src="landing/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="100" height="55" data-lazyload="landing/assets/layer2-100x55.png" data-no-retina>
+                                </rs-layer>
+                            </rs-group>
+                            <rs-layer
+                                id="slider-2-slide-6-layer-4"
+                                class="tp-shape tp-shapewrapper tp-particlewave rs-noevents"
+                                data-type="shape"
+                                data-rsp_ch="on"
+                                data-xy="x:c;y:m;yo:80px,66px,50px,30px;"
+                                data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:100%;h:100%;"
+                                data-basealign="slide"
+                                data-frame_0="y:50px,41px,31px,19px;"
+                                data-frame_1="e:sine.out;st:500;sp:1000;sR:500;"
+                                data-frame_999="o:0;e:sine.in;st:w;sp:1000;sR:7500;"
+                                data-wpsdata='ddw:powerful;s:50%;c:1%;a:1%;g:70;dpr:1;particleSize:10;particleAmount:1000;ddfd:all;oi:100%;bg://hodlies.plvrs.online/wp-content/uploads/revslider/app-website-video-cta/video-bg-img.jpg;po:;ddl:boxes;ddh:shiny;lo:100;co:linear-gradient(rgba(243,48,238,1) 0%, rgba(4,240,230,1) 100%);tb:pendulum;as:20;e2:10deg;e5:30;a2:direct;e6:0;e7:10;ptlt:5deg;prt:5deg;pspd:5;pint:15;d3f:0;d3a:1;d3m:20;ppbb:;'
+                                style="z-index:17;background-color:rgba(0,0,0,0);"
+                            >
+                            </rs-layer>
+                            <rs-layer
+                                id="slider-2-slide-6-layer-5"
+                                data-type="text"
+                                data-rsp_ch="on"
+                                data-xy="x:c;y:t,t,m,t;yo:200px,120px,-270px,180px;"
+                                data-text="w:normal;s:20,16,20,18;l:25,20,15,9;ls:10px,8px,6px,3px;fw:800;"
+                                data-basealign="slide"
+                                data-frame_999="o:0;st:w;sR:8700;"
+                                data-loop_999="sX:0.8;sY:0.8;o:0.6;sp:2000;e:power2.inOut;yys:t;yyf:t;"
+                                style="z-index:23;font-family:'Manrope';"
+                            >SEASON 1
+                            </rs-layer>
+                            <rs-layer
+                                id="slider-2-slide-6-layer-8"
+                                class="rs-noevents"
+                                data-type="text"
+                                data-color="rgba(255, 255, 255, 0.65)"
+                                data-rsp_ch="on"
+                                data-xy="x:c;y:b;yo:180px,160px,280px,224px;"
+                                data-text="w:normal;s:32,26,15,15;l:30,24,20,20;fw:500;a:center;"
+                                data-dim="w:auto,auto,auto,80%;"
+                                data-padding="t:20,17,13,10;r:30,25,19,10;b:20,17,13,10;l:30,25,19,10;"
+                                data-border="bor:20px,20px,20px,20px;"
+                                data-frame_0="sX:0.9;sY:0.9;blu:10px;bB:10px;"
+                                data-frame_1="e:power2.inOut;st:500;sp:1000;sR:500;bB:10px;"
+                                data-frame_999="o:0;st:w;sR:7500;"
+                                style="z-index:20;font-family:'EB Garamond';"
+                            >10 Lost Heroes. 3,333 Randomized Characters. </strong>∞</strong> Timelines.
+                            </rs-layer>
+                            <rs-layer
+                                id="slider-2-slide-6-layer-9"
+                                class="rs-noevents rs-pxl-2"
+                                data-type="shape"
+                                data-bsh="c:rgba(240,198,16,0.5);b:100px,82px,62px,38px;"
+                                data-rsp_ch="on"
+                                data-xy="x:c;y:m;yo:-110px,-90px,-68px,-111px;"
+                                data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:500px,412px,313px,250px;h:500px,412px,313px,250px;"
+                                data-border="bor:300px,300px,300px,300px;"
+                                data-frame_0="y:50px,41px,31px,19px;bB:5px;"
+                                data-frame_1="e:sine.inOut;sp:1500;bB:5px;"
+                                data-frame_999="o:0;e:sine.in;st:w;sp:1000;sR:7500;"
+                                style="z-index:15;background:linear-gradient(rgba(189,72,64,1) 0%, rgba(127,75,91,1) 35%, rgba(80,93,136,1) 50%, rgba(18,116,195,0.6) 70%, rgba(15,28,81,0) 100%);"
+                            >
+                            </rs-layer>
+                            <rs-layer
+                                id="slider-2-slide-6-layer-14"
+                                class="tp-shape tp-shapewrapper tp-particlewave"
+                                data-type="shape"
+                                data-rsp_ch="on"
+                                data-xy="x:c;y:m;yo:100px,82px,62px,38px;"
+                                data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:100%;h:100%;"
+                                data-basealign="slide"
+                                data-frame_0="y:50px,41px,31px,19px;"
+                                data-frame_1="e:sine.out;sp:1000;"
+                                data-frame_999="o:0;e:sine.in;st:w;sp:1000;sR:8000;"
+                                data-wpsdata='ddw:powerful;s:80%;c:20%;a:5%;g:70;rv:20;dpr:1;particleSize:10;particleAmount:1000;oi:100%;bg://hodlies.plvrs.online/wp-content/uploads/revslider/app-website-video-cta/video-bg-img.jpg;po:;bf:1;ddl:boxes;ddh:shiny;lo:100;co:linear-gradient(rgba(71,18,98,1) 0%, rgba(29,17,211,1) 25%, rgba(0,0,0,1) 100%);as:20;e2:15deg;e5:10;a2:direct;e6:0;e7:10;int:mousefollow;ptlt:5deg;prt:5deg;pspd:5;pint:15;d3f:0;d3a:1;d3m:20;ppbb:;'
+                                style="z-index:16;background-color:rgba(0,0,0,0);"
+                            >
+                            </rs-layer>
+                            <rs-layer
+                                id="slider-2-slide-6-layer-15"
+                                class="tp-shape tp-shapewrapper tp-particlewave"
+                                data-type="shape"
+                                data-rsp_ch="on"
+                                data-xy="x:c;y:m;yo:150px,123px,93px,57px;"
+                                data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:100%;h:100%;"
+                                data-basealign="slide"
+                                data-frame_0="y:50px,41px,31px,19px;"
+                                data-frame_1="e:sine.out;st:1000;sp:1000;sR:1000;"
+                                data-frame_999="o:0;e:sine.in;st:w;sp:1000;sR:7000;"
+                                data-wpsdata='ddw:powerful;s:20%;c:100%;a:15%;g:60;rv:100;t:24deg;dpr:1;particleSize:10;particleAmount:500;ddfd:front;oi:100%;bg://hodlies.plvrs.online/wp-content/uploads/revslider/app-website-video-cta/video-bg-img.jpg;po:;bf:1;ddl:boxes;ddh:shiny;lo:100;co:linear-gradient(rgba(163,31,168,1) 0%, rgba(7,238,246,1) 50%, rgba(7,238,246,1) 100%);b0:additive;as:20;e2:15deg;e5:10;a2:direct;e6:0;e7:10;ptlt:10deg;prt:10deg;pspd:10;pint:25;d3f:50;d3a:1;d3m:62;'
+                                style="z-index:14;background-color:rgba(0,0,0,0);"
+                            >
+                            </rs-layer>
+                            <rs-layer
+                                id="slider-2-slide-6-layer-34"
+                                data-type="image"
+                                data-rsp_ch="on"
+                                data-xy="x:c;xo:-67px,-38px,-28px,-57px;y:m;yo:-227px,-143px,-151px,-12px;"
+                                data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:500px,412px,313px,400px;h:381px,314px,238px,305px;"
+                                data-basealign="slide"
+                                data-btrans="rZ:-20;"
+                                data-frame_0="oY:100%;"
+                                data-frame_1="rZ:5deg;oY:100%;e:sine.out;st:1400;sp:2000;sR:1400;"
+                                data-frame_999="o:0;st:w;sR:5600;"
+                                data-loop_0="oY:100%;"
+                                data-loop_999="rZ:3deg;sp:7000;st:3400;e:sine.inOut;yyr:t;"
+                                style="z-index:19;"
+                            ><img src="landing/assets/373-1-e1663369500529-1024x781.png" alt="" class="tp-rs-img rs-lazyload" width="1024" height="781" data-lazyload="landing/assets/373-1-e1663369500529-1024x781.png" data-no-retina>
+                            </rs-layer>
+                        </rs-slide>
+                        <rs-slide style="position: absolute;" data-key="rs-90" data-title="about1" data-in="o:1;x:100%;" data-out="x:-60%;">
+                            <img src="landing/assets/dummy.png" alt="" title="later1" width="2048" height="1152" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="landing/assets/later1-2048x1152.png" data-parallax="off" data-no-retina>
+                            <rs-zone id="rrzb_90" class="rev_row_zone_bottom" style="z-index: 10;">
+                                <rs-row
+                                    id="slider-2-slide-90-layer-0"
+                                    data-type="row"
+                                    data-xy="xo:50px;yo:50px;"
+                                    data-rsp_o="off"
+                                    data-rsp_bd="off"
+                                    data-margin="t:0,0,200,160;b:100,100,80,60;"
+                                    data-padding="r:100,75,50,30;l:100,75,50,30;"
+                                    data-frame_0="o:1;"
+                                    data-frame_999="o:0;st:w;sR:8700;sA:9000;"
+                                    style="z-index:1;"
+                                >
+                                    <rs-column
+                                        id="slider-2-slide-90-layer-1"
+                                        data-type="column"
+                                        data-xy="xo:50px;yo:50px;"
+                                        data-text="a:center;"
+                                        data-rsp_o="off"
+                                        data-rsp_bd="off"
+                                        data-column="w:100%;"
+                                        data-frame_0="o:1;"
+                                        data-frame_999="o:0;st:w;sR:8700;sA:9000;"
+                                        style="z-index:2;width:100%;"
+                                    >
+                                        <rs-layer
+                                            id="slider-2-slide-90-layer-4"
+                                            data-type="text"
+                                            data-text="w:normal;s:40,40,60,32;l:50,50,60,50;fw:700;"
+                                            data-rsp_o="off"
+                                            data-rsp_bd="off"
+                                            data-frame_0="y:20px;"
+                                            data-frame_1="sp:1500;"
+                                            data-frame_999="o:0;st:w;sR:7500;"
+                                            style="z-index:3;font-family:'Manrope';"
+                                        ><em>Enter the PLVRS</em> is a story-powered digital experience that educates, empowers, and employs creators to create for creation's sake. We tell stories that comment on today's world.
+                                        </rs-layer>
+                                    </rs-column>
+                                </rs-row>
+                            </rs-zone>
+                            <rs-layer
+                                id="slider-2-slide-90-layer-3"
+                                data-type="text"
+                                data-xy="x:l,l,l,r;xo:1149px,1149px,1149px,0;y:t,t,t,b;yo:647px,647px,647px,0;"
+                                data-text="w:normal;s:60;l:60;"
+                                data-actions='o:click;a:jumptoslide;slide:rs-91;'
+                                data-rsp_o="off"
+                                data-rsp_bd="off"
+                                data-btrans="rZ:270;"
+                                data-frame_0="y:20px;"
+                                data-frame_1="st:600;sp:1000;sR:600;"
+                                data-frame_999="o:0;st:w;sR:7400;"
+                                data-loop_999="y:10px;st:1500;e:sine.inOut;yym:t;"
+                                style="z-index:13;font-family:'Heebo';cursor:pointer;"
+                            ><i class="material-icons">keyboard_arrow_down</i>
+                            </rs-layer>
+                            <rs-layer
+                                id="slider-2-slide-90-layer-7"
+                                data-type="image"
+                                data-rsp_ch="on"
+                                data-xy="x:r;xo:0,0,0,-57px;yo:-55px,-45px,-34px,10px;"
+                                data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:1024px,845px,642px,396px;h:683px,564px,428px,264px;"
+                                data-frame_1="e:power4.inOut;st:330;sp:4090;sR:330;"
+                                data-frame_999="o:0;st:w;sR:4580;"
+                                data-loop_0="xR:60;yR:60;"
+                                data-loop_999="xR:60;yR:60;crd:t;sp:3000;"
+                                style="z-index:9;"
+                            ><img src="landing/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="1024" height="683" data-lazyload="landing/assets/big-tube-1024x683.png" data-no-retina>
+                            </rs-layer>
+                            <rs-layer
+                                id="slider-2-slide-90-layer-57"
+                                data-type="image"
+                                data-rsp_ch="on"
+                                data-xy="xo:0,0,0,25px;yo:250px,206px,156px,87px;"
+                                data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:300px,247px,187px,115px;h:281px,232px,176px,108px;"
+                                data-frame_1="e:power4.inOut;st:160;sp:690;sR:160;"
+                                data-frame_999="o:0;st:w;sR:8150;"
+                                data-loop_999="sX:0.8;sY:0.8;sp:2000;e:power0.inOut;yys:t;yyf:t;"
+                                style="z-index:8;"
+                            ><img src="landing/assets/purplehodly-300x281.png" alt="" class="tp-rs-img rs-lazyload" width="300" height="281" data-lazyload="landing/assets/purplehodly-300x281.png" data-no-retina>
+                            </rs-layer>
+                        </rs-slide>
+                        <rs-slide style="position: absolute;" data-key="rs-91" data-title="about2" data-duration="25000ms" data-anim="p:transparent;" data-in="o:0;" data-out="o:0;">
+                            <img src="landing/assets/transparent.png" alt="" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="landing/assets/transparent.png" data-parallax="off" data-no-retina>
+                            <rs-bgvideo
+                                data-video="w:100%;h:100%;sat:true;l:false;ptimer:false;vfc:true;"
+                                data-mp4="landing/assets/actii-comp.mp4"
+                            ></rs-bgvideo>
+                            <rs-zone id="rrzt_91" class="rev_row_zone_top" style="z-index: 10;">
+                                <rs-row
+                                    id="slider-2-slide-91-layer-53"
+                                    data-type="row"
+                                    data-xy="xo:50px;yo:50px;"
+                                    data-rsp_o="off"
+                                    data-rsp_bd="off"
+                                    data-margin="t:60,60,200,160;b:0,0,80,60;"
+                                    data-padding="r:100,75,50,30;l:100,75,50,30;"
+                                    data-frame_0="o:1;"
+                                    data-frame_999="o:0;st:w;sR:24700;sA:25000;"
+                                    style="z-index:1;"
+                                >
+                                    <rs-column
+                                        id="slider-2-slide-91-layer-54"
+                                        data-type="column"
+                                        data-xy="xo:50px;yo:50px;"
+                                        data-text="a:center;"
+                                        data-rsp_o="off"
+                                        data-rsp_bd="off"
+                                        data-column="w:100%;"
+                                        data-frame_0="o:1;"
+                                        data-frame_999="o:0;st:w;sR:24700;sA:25000;"
+                                        style="z-index:2;width:100%;"
+                                    >
+                                        <rs-layer
+                                            id="slider-2-slide-91-layer-56"
+                                            data-type="text"
+                                            data-tsh="h:1px;v:1px;b:1px;"
+                                            data-text="w:normal;s:60,60,60,40;l:60,60,60,44;fw:600;"
+                                            data-rsp_o="off"
+                                            data-rsp_bd="off"
+                                            data-frame_0="y:20px;"
+                                            data-frame_1="sp:4510;"
+                                            data-frame_999="o:0;e:power4.inOut;st:9090;sp:1000;sR:4580;"
+                                            style="z-index:3;font-family:'EB Garamond';"
+                                        ><em>Premise:</em> A world of creators enslaved by Big Tube is about to wake up...
+                                        </rs-layer>
+                                    </rs-column>
+                                </rs-row>
+                            </rs-zone>
+                            <rs-layer
+                                id="slider-2-slide-91-layer-55"
+                                data-type="text"
+                                data-tsh="h:1px;v:1px;b:1px;"
+                                data-xy="x:r;xo:40px;yo:50px;"
+                                data-text="w:normal;s:60;l:60;"
+                                data-actions='o:click;a:jumptoslide;slide:next;'
+                                data-rsp_o="off"
+                                data-rsp_bd="off"
+                                data-btrans="rZ:270;"
+                                data-frame_0="y:20px;"
+                                data-frame_1="st:600;sp:1000;sR:600;"
+                                data-frame_999="o:0;st:w;sR:23400;"
+                                data-loop_999="y:10px;st:1500;e:sine.inOut;yym:t;"
+                                style="z-index:11;font-family:'Heebo';cursor:pointer;"
+                            ><i class="material-icons">keyboard_arrow_down</i>
+                            </rs-layer>
+                        </rs-slide>
+                        <rs-slide style="position: absolute;" data-key="rs-92" data-title="about3" data-duration="16000ms" data-in="o:1;x:100%;" data-out="x:-60%;">
+                            <img src="landing/assets/layer3-2048x1365.png" alt="" title="layer3" width="2048" height="1365" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="landing/assets/layer3-2048x1365.png" data-parallax="off" data-no-retina>
+                            <rs-zone id="rrzt_92" class="rev_row_zone_top" style="z-index: 17;">
+                                <rs-row
+                                    id="slider-2-slide-92-layer-0"
+                                    data-type="row"
+                                    data-xy="xo:50px;yo:50px;"
+                                    data-rsp_o="off"
+                                    data-rsp_bd="off"
+                                    data-margin="t:60,60,200,2;b:40,40,80,0;"
+                                    data-padding="r:100,75,50,30;l:100,75,50,30;"
+                                    data-frame_0="o:1;"
+                                    data-frame_999="o:0;st:w;sR:8700;sA:16000;"
+                                    style="z-index:1;"
+                                >
+                                    <rs-column
+                                        id="slider-2-slide-92-layer-1"
+                                        data-type="column"
+                                        data-xy="xo:50px;yo:50px;"
+                                        data-text="a:center;"
+                                        data-rsp_o="off"
+                                        data-rsp_bd="off"
+                                        data-column="w:100%;"
+                                        data-frame_0="o:1;"
+                                        data-frame_999="o:0;st:w;sR:8700;sA:16000;"
+                                        style="z-index:2;width:100%;"
+                                    >
+                                        <rs-layer
+                                            id="slider-2-slide-92-layer-4"
+                                            data-type="text"
+                                            data-text="w:normal;s:44,40,60,26;l:60,50,60,30;fw:700;"
+                                            data-rsp_o="off"
+                                            data-rsp_bd="off"
+                                            data-margin="t:40;"
+                                            data-frame_0="y:20px;"
+                                            data-frame_1="sp:1500;"
+                                            data-frame_999="o:1;st:w;sR:7500;"
+                                            style="z-index:3;font-family:'Manrope';"
+                                        ><em>Enter the PLVRS</em> expands with its community. We use NFTs to allocate characters, assets, and stories to members of  our multiverse.
+                                        </rs-layer>
+                                    </rs-column>
+                                </rs-row>
+                                <rs-row
+                                    id="slider-2-slide-92-layer-58"
+                                    data-type="row"
+                                    data-xy="xo:50px;yo:50px;"
+                                    data-rsp_o="off"
+                                    data-rsp_bd="off"
+                                    data-margin="t:0,0,200,60;b:0,0,80,0;"
+                                    data-padding="r:100,75,50,30;l:100,75,50,30;"
+                                    data-frame_0="o:1;"
+                                    data-frame_999="o:0;st:w;sR:8700;sA:16000;"
+                                    style="z-index:4;"
+                                >
+                                    <rs-column
+                                        id="slider-2-slide-92-layer-59"
+                                        data-type="column"
+                                        data-xy="xo:50px;yo:50px;"
+                                        data-text="a:center;"
+                                        data-rsp_o="off"
+                                        data-rsp_bd="off"
+                                        data-column="w:100%;"
+                                        data-frame_0="o:1;"
+                                        data-frame_999="o:0;st:w;sR:8700;sA:16000;"
+                                        style="z-index:5;width:100%;"
+                                    >
+                                        <rs-layer
+                                            id="slider-2-slide-92-layer-60"
+                                            data-type="text"
+                                            data-text="w:normal;s:40,40,60,32;l:50,50,60,40;fw:600;"
+                                            data-rsp_o="off"
+                                            data-rsp_bd="off"
+                                            data-frame_0="y:20px;"
+                                            data-frame_1="sp:1500;"
+                                            data-frame_999="o:1;st:w;sR:7500;"
+                                            style="z-index:6;font-family:'EB Garamond';"
+                                        ><em>Pilot:</em> Despite the revolution, one Hodly glitches himself out of his timeline with viral content, and ends up in 3D.
+                                        </rs-layer>
+                                    </rs-column>
+                                </rs-row>
+                            </rs-zone>
+                            <rs-layer
+                                id="slider-2-slide-92-layer-7"
+                                data-type="image"
+                                data-rsp_ch="on"
+                                data-xy="x:r;xo:-84px,-69px,-52px,-33px;y:b;yo:-56px,-46px,-34px,0;"
+                                data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:1024px,845px,642px,396px;h:781px,644px,489px,301px;"
+                                data-frame_1="e:power4.inOut;sp:1400;"
+                                data-frame_999="o:0;st:w;sR:7600;"
+                                data-loop_0="x:60px;"
+                                data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+                                style="z-index:16;"
+                            ><img src="landing/assets/373-1-e1663369500529-1024x781.png" alt="" class="tp-rs-img rs-lazyload" width="1024" height="781" data-lazyload="landing/assets/373-1-e1663369500529-1024x781.png" data-no-retina>
+                            </rs-layer>
+                            <rs-layer
+                                id="slider-2-slide-92-layer-12"
+                                data-type="text"
+                                data-xy="x:l,l,l,r;xo:1171,1171,1171,0;y:t,t,t,m;yo:160,160,160,0;"
+                                data-text="w:normal;s:60;l:60;a:center;"
+                                data-actions='o:click;a:jumptoslide;slide:next;'
+                                data-rsp_o="off"
+                                data-rsp_bd="off"
+                                data-btrans="rZ:270;"
+                                data-frame_0="y:20px;"
+                                data-frame_1="sp:1000;"
+                                data-frame_999="o:0;st:w;sR:8000;"
+                                data-loop_999="y:10px;st:1500;e:sine.inOut;yym:t;"
+                                style="z-index:18;font-family:'Heebo';cursor:pointer;"
+                            ><i class="material-icons">keyboard_arrow_down</i>
+                            </rs-layer>
+                        </rs-slide>
+                        <rs-slide style="position: absolute;" data-key="rs-93" data-title="about4" data-anim="p:light;" data-in="o:0;" data-out="o:0;">
+                            <img src="landing/assets/Screen-Shot-2022-09-16-at-7.01.20-PM.png" alt="" title="Screen Shot 2022-09-16 at 7.01.20 PM" width="1733" height="970" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="landing/assets/Screen-Shot-2022-09-16-at-7.01.20-PM.png" data-parallax="off" data-no-retina>
+                            <rs-bgvideo
+                                data-video="w:100%;h:100%;sat:true;l:false;ptimer:false;vfc:true;"
+                                data-mp4="landing/assets/watBG-comp.mp4"
+                            ></rs-bgvideo>
+                            <rs-zone id="rrzm_93" class="rev_row_zone_middle" style="z-index: 9;">
+                                <rs-row
+                                    id="slider-2-slide-93-layer-25"
+                                    data-type="row"
+                                    data-xy="xo:50px;yo:50px;"
+                                    data-rsp_o="off"
+                                    data-rsp_bd="off"
+                                    data-sba="t:false;"
+                                    data-margin="t:240,240,200,160;b:40,40,80,60;"
+                                    data-padding="r:100,75,50,30;l:100,75,50,30;"
+                                    data-frame_1="e:power4.inOut;sp:1500;"
+                                    data-frame_999="o:0;st:w;sR:7500;sA:9000;"
+                                    style="z-index:1;"
+                                >
+                                    <rs-column
+                                        id="slider-2-slide-93-layer-26"
+                                        data-type="column"
+                                        data-xy="xo:50px;yo:50px;"
+                                        data-text="a:center;"
+                                        data-rsp_o="off"
+                                        data-rsp_bd="off"
+                                        data-sba="t:false;"
+                                        data-column="w:100%;"
+                                        data-frame_0="o:1;"
+                                        data-frame_999="o:0;st:w;sR:8700;sA:9000;"
+                                        style="z-index:2;width:100%;"
+                                    >
+                                        <rs-layer
+                                            id="slider-2-slide-93-layer-31"
+                                            data-type="text"
+                                            data-tsh="c:rgba(0,0,0,0.65);h:1px;v:1px;b:1px;"
+                                            data-text="w:normal;s:40,40,60,40;l:50,50,60,44;fw:600;"
+                                            data-actions='o:click;a:jumptoslide;slide:next;'
+                                            data-rsp_o="off"
+                                            data-rsp_bd="off"
+                                            data-sba="t:false;"
+                                            data-margin="t:50;"
+                                            data-frame_1="e:power4.inOut;sp:1220;"
+                                            data-frame_999="o:0;e:power2.in;st:6360;sp:1000;sR:5140;"
+                                            style="z-index:3;font-family:'EB Garamond';"
+                                        ><em>Metaphor:</em> It was called the hodlyOS uninstallation ritual. Green Hodlies partake to re-learn their creativity.
+                                        </rs-layer>
+                                    </rs-column>
+                                </rs-row>
+                            </rs-zone>
+                            <rs-layer
+                                id="slider-2-slide-93-layer-24"
+                                data-type="text"
+                                data-xy="x:r;xo:39px,39px,39px,0;y:m,m,m,b;yo:108px,108px,108px,0;"
+                                data-text="w:normal;s:60;l:60;"
+                                data-actions='o:click;a:jumptoslide;slide:next;'
+                                data-rsp_o="off"
+                                data-rsp_bd="off"
+                                data-btrans="rZ:270;"
+                                data-frame_0="y:20px;"
+                                data-frame_1="st:600;sp:1000;sR:600;"
+                                data-frame_999="o:0;st:w;sR:7400;"
+                                data-loop_999="y:10px;st:1500;e:sine.inOut;yym:t;"
+                                style="z-index:11;font-family:'Heebo';cursor:pointer;"
+                            ><i class="material-icons">keyboard_arrow_down</i>
+                            </rs-layer>
+                        </rs-slide>
+                        <rs-slide style="position: absolute;" data-key="rs-94" data-title="about4" data-duration="16000ms" data-anim="p:light;" data-in="o:0;" data-out="o:0;">
+                            <img src="landing/assets/mainbg-1-scaled.jpg" alt="" title="mainbg" width="2560" height="1707" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="landing/assets/mainbg-1-scaled.jpg" data-parallax="off" data-no-retina>
+                            <rs-zone id="rrzt_94" class="rev_row_zone_top" style="z-index: 27;">
+                                <rs-row
+                                    id="slider-2-slide-94-layer-10"
+                                    data-type="row"
+                                    data-xy="xo:50px;yo:50px;"
+                                    data-cbreak="3"
+                                    data-rsp_bd="off"
+                                    data-margin="t:30,30,30,20;r:50,80,80,40;l:50,80,80,40;"
+                                    data-frame_0="y:top;"
+                                    data-frame_1="e:power2.inOut;sp:1000;"
+                                    data-frame_999="o:0;st:w;sR:15000;sA:16000;"
+                                    style="z-index:1;"
+                                >
+                                    <rs-column
+                                        id="slider-2-slide-94-layer-23"
+                                        data-type="column"
+                                        data-xy="xo:50px;yo:50px;"
+                                        data-rsp_bd="off"
+                                        data-column="w:50%;"
+                                        data-frame_0="o:1;"
+                                        data-frame_999="o:0;st:w;sR:15700;sA:16000;"
+                                        style="z-index:2;width:100%;"
+                                    >
+                                        <rs-layer
+                                            id="slider-2-slide-94-layer-28"
+                                            data-type="image"
+                                            data-rsp_ch="on"
+                                            data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                            data-dim="w:300px,247px,187px,115px;h:70px,57px,43px,26px;"
+                                            data-frame_999="o:0;st:w;sR:15700;"
+                                            style="z-index:3;"
+                                        ><img src="landing/assets/1-PLVRS-horizontal-small.png" alt="" class="tp-rs-img rs-lazyload" width="300" height="70" data-lazyload="landing/assets/1-PLVRS-horizontal-small.png" data-no-retina>
+                                        </rs-layer>
+                                    </rs-column>
+                                    <rs-column
+                                        id="slider-2-slide-94-layer-30"
+                                        data-type="column"
+                                        data-xy="xo:50px;yo:50px;"
+                                        data-text="a:right;"
+                                        data-rsp_bd="off"
+                                        data-column="w:50%;"
+                                        data-frame_0="o:1;"
+                                        data-frame_999="o:0;st:w;sR:15700;sA:16000;"
+                                        style="z-index:4;width:100%;"
+                                    >
+                                        <rs-layer
+                                            id="slider-2-slide-94-layer-35"
+                                            data-type="text"
+                                            data-color="#b2d6ff"
+                                            data-rsp_ch="on"
+                                            data-text="w:normal;s:18,16,16,16;l:50,50,50,40;ls:2px,1px,0px,0px;fw:800;"
+                                            data-actions='o:click;a:scrollbelow;sp:1000ms;e:power1.inOut;'
+                                            data-disp="inline-block"
+                                            data-margin="t:0,0,0,-40;r:0,0,0,12;"
+                                            data-border="bos:solid;bow:0,0,2px,0;"
+                                            data-frame_999="o:0;st:w;sR:15700;"
+                                            data-frame_hover="c:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:0,0,2px,0;bri:120%;"
+                                            style="z-index:5;font-family:'Manrope';text-transform:uppercase;cursor:pointer;display:inline-block;"
+                                        >BUY A HODLY
+                                        </rs-layer>
+                                        <a
+                                            id="slider-2-slide-94-layer-36"
+                                            class="rs-layer"
+                                            href="#ALL-NFTs" target="_blank" rel="noreferrer"
+                                            data-type="text"
+                                            data-color="rgba(178, 214, 255, 0.8)"
+                                            data-rsp_ch="on"
+                                            data-text="w:normal;s:18,16,16,16;l:50,50,50,40;ls:2px,1px,0px,0px;fw:700;"
+                                            data-vbility="t,t,t,f"
+                                            data-disp="inline-block"
+                                            data-margin="t:0,0,0,-40;r:50,41,31,30;l:50,41,31,30;"
+                                            data-border="bos:solid;bow:0,0,2px,0;"
+                                            data-frame_999="o:0;st:w;sR:15700;"
+                                            data-frame_hover="c:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:0,0,2px,0;bri:120%;"
+                                            style="z-index:6;font-family:'Manrope';text-transform:uppercase;cursor:pointer;display:inline-block;"
+                                        >NFTs
+                                        </a>
+                                        <a
+                                            id="slider-2-slide-94-layer-37"
+                                            class="rs-layer"
+                                            href="#CONNECTWALLET" target="_blank" rel="noreferrer"
+                                            data-type="text"
+                                            data-color="rgba(178, 214, 255, 0.8)"
+                                            data-rsp_ch="on"
+                                            data-text="w:normal;s:18,16,16,16;l:50,50,50,40;ls:2px,1px,0px,0px;fw:700;"
+                                            data-disp="inline-block"
+                                            data-margin="t:0,0,0,-40;"
+                                            data-border="bos:solid;bow:0,0,2px,0;"
+                                            data-frame_999="o:0;st:w;sR:15700;"
+                                            data-frame_hover="c:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:0,0,2px,0;bri:120%;"
+                                            style="z-index:7;font-family:'Manrope';text-transform:uppercase;cursor:pointer;display:inline-block;"
+                                        >Connect Wallet
+                                        </a>
+                                    </rs-column>
+                                </rs-row>
+                                <rs-row
+                                    id="slider-2-slide-94-layer-25"
+                                    data-type="row"
+                                    data-xy="xo:50px;yo:50px;"
+                                    data-rsp_o="off"
+                                    data-rsp_bd="off"
+                                    data-margin="t:20,60,200,0;r:120,60,0,0;b:0,60,80,0;l:120,60,0,0;"
+                                    data-padding="r:100,75,50,30;l:100,75,50,30;"
+                                    data-frame_1="e:power4.inOut;sp:1500;"
+                                    data-frame_999="o:0;st:w;sR:14500;sA:16000;"
+                                    style="z-index:8;"
+                                >
+                                    <rs-column
+                                        id="slider-2-slide-94-layer-26"
+                                        data-type="column"
+                                        data-xy="xo:50px;yo:50px;"
+                                        data-text="a:center;"
+                                        data-rsp_o="off"
+                                        data-rsp_bd="off"
+                                        data-column="w:100%;"
+                                        data-frame_0="o:1;"
+                                        data-frame_999="o:0;st:w;sR:15700;sA:16000;"
+                                        style="z-index:9;width:100%;"
+                                    >
+                                        <rs-layer
+                                            id="slider-2-slide-94-layer-31"
+                                            data-type="text"
+                                            data-tsh="c:rgba(0,0,0,0.65);h:1px;v:1px;b:1px;"
+                                            data-text="w:normal;s:60,60,60,32;l:60,60,60,36;fw:600;"
+                                            data-rsp_o="off"
+                                            data-rsp_bd="off"
+                                            data-frame_1="e:power4.inOut;sp:1500;"
+                                            data-frame_999="o:0;e:power4.inOut;st:3330;sp:720;sR:1830;"
+                                            style="z-index:10;font-family:'EB Garamond';"
+                                        >Everything goes as planned; that is to say, the purest creativity has no plan...
+                                        </rs-layer>
+                                    </rs-column>
+                                </rs-row>
+                                <rs-row
+                                    id="slider-2-slide-94-layer-40"
+                                    data-type="row"
+                                    data-xy="xo:50px;yo:50px;"
+                                    data-rsp_o="off"
+                                    data-rsp_bd="off"
+                                    data-margin="t:0,60,200,0;r:120,60,0,0;b:0,60,80,0;l:120,60,0,0;"
+                                    data-padding="r:100,75,50,30;l:100,75,50,30;"
+                                    data-frame_1="e:power4.inOut;sp:1500;"
+                                    data-frame_999="o:0;st:w;sR:14500;sA:16000;"
+                                    style="z-index:12;"
+                                >
+                                    <rs-column
+                                        id="slider-2-slide-94-layer-41"
+                                        data-type="column"
+                                        data-xy="xo:50px;yo:50px;"
+                                        data-text="a:center;"
+                                        data-rsp_o="off"
+                                        data-rsp_bd="off"
+                                        data-column="w:100%;"
+                                        data-frame_0="o:1;"
+                                        data-frame_999="o:0;st:w;sR:15700;sA:16000;"
+                                        style="z-index:13;width:100%;"
+                                    >
+                                        <rs-layer
+                                            id="slider-2-slide-94-layer-42"
+                                            data-type="text"
+                                            data-tsh="c:rgba(0,0,0,0.65);h:1px;v:1px;b:1px;"
+                                            data-text="w:normal;s:60,60,60,40;l:60,60,60,44;fw:600;"
+                                            data-rsp_o="off"
+                                            data-rsp_bd="off"
+                                            data-frame_1="e:power4.inOut;st:4070;sp:870;sR:4070;"
+                                            data-frame_999="o:0;e:power4.inOut;st:6480;sp:1000;sR:1540;"
+                                            style="z-index:15;font-family:'Manrope';"
+                                        >The portal has been opened. Welcome.
+                                        </rs-layer>
+                                    </rs-column>
+                                </rs-row>
+                            </rs-zone>
+                            <rs-zone id="rrzb_94" class="rev_row_zone_bottom" style="z-index: 25;">
+                                <rs-row
+                                    id="slider-2-slide-94-layer-38"
+                                    data-type="row"
+                                    data-xy="xo:50px;yo:50px;"
+                                    data-basealign="slide"
+                                    data-rsp_o="off"
+                                    data-rsp_bd="off"
+                                    data-margin="t:0,0,200,0;b:40,40,80,0;"
+                                    data-padding="r:60,75,50,20;l:60,75,50,20;"
+                                    data-frame_1="e:power4.inOut;st:7530;sp:1500;sR:7530;"
+                                    data-frame_999="o:0;st:w;sR:6970;sA:16000;"
+                                    style="z-index:16;"
+                                >
+                                    <rs-column
+                                        id="slider-2-slide-94-layer-39"
+                                        data-type="column"
+                                        data-xy="xo:50px;yo:50px;"
+                                        data-rsp_o="off"
+                                        data-rsp_bd="off"
+                                        data-column="a:bottom;"
+                                        data-frame_0="o:1;"
+                                        data-frame_1="sR:-7530;"
+                                        data-frame_999="o:0;st:w;sR:15700;sA:16000;"
+                                        style="z-index:17;width:100%;"
+                                    >
+                                        <rs-layer
+                                            id="slider-2-slide-94-layer-44"
+                                            data-type="text"
+                                            data-tsh="h:1px;v:1px;b:1px;"
+                                            data-xy="x:r;y:b;"
+                                            data-text="w:normal;s:30,30,60,32;l:40,40,60,36;fw:600;a:center;"
+                                            data-actions='id:#NFTFUEL;o:click;a:scrollto;sp:1000ms;e:power1.inOut;'
+                                            data-rsp_o="off"
+                                            data-rsp_bd="off"
+                                            data-margin="b:0,0,0,20;"
+                                            data-frame_0="o:1;"
+                                            data-frame_999="o:0;st:w;sR:15700;"
+                                            style="z-index:18;font-family:'Manrope';text-transform:uppercase;cursor:pointer;"
+                                        ><i class="material-icons">keyboard_arrow_left</i> Enter the PLVRS
+                                        </rs-layer>
+                                    </rs-column>
+                                    <rs-column
+                                        id="slider-2-slide-94-layer-51"
+                                        data-type="column"
+                                        data-xy="xo:50px;yo:50px;"
+                                        data-rsp_bd="off"
+                                        data-column="w:66.67%;a:bottom;"
+                                        data-frame_0="o:1;"
+                                        data-frame_1="sR:-7530;"
+                                        data-frame_999="o:0;st:w;sR:15700;sA:16000;"
+                                        style="z-index:19;width:100%;"
+                                    >
+                                        <a
+                                            id="slider-2-slide-94-layer-52"
+                                            class="rs-layer"
+                                            href="#MEETHEROES" target="_self"
+                                            data-type="text"
+                                            data-text="w:normal;s:30,30,60,32;l:40,40,60,36;fw:600;a:right;"
+                                            data-rsp_o="off"
+                                            data-rsp_bd="off"
+                                            data-margin="b:0,0,0,20;"
+                                            data-frame_0="o:1;"
+                                            data-frame_999="o:0;st:w;sR:15700;"
+                                            style="z-index:20;font-family:'Manrope';text-transform:uppercase;cursor:pointer;"
+                                        >SEASON 1: Meet the Heroes <i class="material-icons">keyboard_arrow_right</i>
+                                        </a>
+                                    </rs-column>
+                                </rs-row>
+                            </rs-zone>
+                            <rs-layer
+                                id="slider-2-slide-94-layer-11"
+                                class="rs-layer-video intrinsic-ignore"
+                                data-type="video"
+                                data-rsp_ch="on"
+                                data-xy="x:c;xo:0,127px,96px,0;y:b,b,b,m;yo:40px,10px,7px,120px;"
+                                data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:398px,328px,480px,261px;h:398px,328px,480px,261px;"
+                                data-video="vfc:true;vd:100;l:false;ptimer:false;"
+                                data-poster="landing/assets/heroes-comp_94_layer.jpeg"
+                                data-mp4="landing/assets/heroes-comp.mp4"
+                                data-frame_999="o:0;st:w;sR:15700;"
+                                style="z-index:28;"
+                            >
+                            </rs-layer>
+                        </rs-slide>
+                    </rs-slides>
+                    <rs-static-layers><!--
+					--></rs-static-layers>
+                </rs-module>
+                <script>
+
+                </script>
+                <script>
+                  if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}
+                </script>
+            </rs-module-wrap>
+            <!-- END REVOLUTION SLIDER -->
+        </div>
+        <div class="row">
+
+        </div>
+    </div>
+</div>
+
+<script src="landing/js/revolution.addon.particlewave.min.js"></script>
+<script src="landing/js/rbtools.min.js"></script>
+<script src="landing/js/rs6.min.js"></script>
+<script src="landing/js/three.min.js"></script>
+
+<script>
+  var	tpj = jQuery;
+  if(window.RS_MODULES === undefined) window.RS_MODULES = {};
+  if(RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+  RS_MODULES.modules["revslider21"] = {once: RS_MODULES.modules["revslider21"]!==undefined ? RS_MODULES.modules["revslider21"].once : undefined, init:function() {
+      window.revapi2 = window.revapi2===undefined || window.revapi2===null || window.revapi2.length===0  ? document.getElementById("rev_slider_2_1") : window.revapi2;
+      if(window.revapi2 === null || window.revapi2 === undefined || window.revapi2.length==0) { window.revapi2initTry = window.revapi2initTry ===undefined ? 0 : window.revapi2initTry+1; if (window.revapi2initTry<20) requestAnimationFrame(function() {RS_MODULES.modules["revslider21"].init()}); return;}
+      window.revapi2 = jQuery(window.revapi2);
+      if(window.revapi2.revolution==undefined){ revslider_showDoubleJqueryError("rev_slider_2_1"); return;}
+      revapi2.revolutionInit({
+        revapi:"revapi2",
+        DPR:"dpr",
+        sliderLayout:"fullscreen",
+        visibilityLevels:"1240,1024,778,480",
+        gridwidth:"1240,1024,778,480",
+        gridheight:"900,768,960,720",
+        lazyType:"smart",
+        perspective:600,
+        perspectiveType:"global",
+        editorheight:"900,768,1150,720",
+        responsiveLevels:"1240,1024,778,480",
+        fullScreenOffsetContainer:"#masthead",
+        stopAtSlide:1,
+        stopAfterLoops:0,
+        stopLoop:true,
+        progressBar:{disableProgressBar:true},
+        navigation: {
+          mouseScrollNavigation:"on",
+          wheelCallDelay:400,
+          onHoverStop:false
+        },
+        parallax: {
+          levels:[2,4,6,8,10,30,35,40,45,46,47,48,49,50,51,0],
+          type:"mousescroll",
+          origo:"slidercenter",
+          speed:0,
+          speedls:"2000ms"
+        },
+        sbtimeline: {
+          set:true,
+          fixed:true,
+          fixStart:2000,
+          fixEnd:4000
+        },
+        viewPort: {
+          global:true,
+          globalDist:"-200px",
+          enable:false
+        },
+        fallbacks: {
+          allowHTML5AutoPlayOnAndroid:true
+        },
+      });
+
+      if (revapi2 !== undefined) jQuery.fn.revolution.particleWaveInit(revapi2[0].id,  {url:"https://hodlies.plvrs.online/wp-content/plugins/revslider-particlewave-addon/"});
+
+    }} // End of RevInitScript
+  if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
+</script>
+
+
+
+<style>
+    @font-face{
+        font-family:'Material Icons';
+        font-style:normal;
+        font-weight:400;
+        src:url(landing/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2)
+        format('woff2')
+    }
+    rs-module .material-icons{
+        font-family:'Material Icons';
+        font-weight:normal;
+        font-style:normal;
+        font-size:inherit;
+        display:inline-block;
+        text-transform:none;
+        letter-spacing:normal;
+        word-wrap:normal;
+        white-space:nowrap;
+        direction:ltr;
+        vertical-align:top;
+        line-height:inherit;
+        font-feature-settings:'liga';
+        -webkit-font-smoothing:antialiased;
+        text-rendering:optimizeLegibility;
+        -moz-osx-font-smoothing:grayscale
+    }
+</style>
+<script type="text/javascript">window.RVS = window.RVS || {}; window.RVS.ENV = window.RVS.ENV || {}; window.RVS.ENV.TRANSITIONPACK_URL = "https://hodlies.plvrs.online/wp-content/plugins/revslider-transitionpack-addon/";</script>
+</body>
+</html>
